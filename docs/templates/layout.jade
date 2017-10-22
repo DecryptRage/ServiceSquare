@@ -24,7 +24,7 @@ html(lang='en')
         div.wrap
           a.nav-home(href=contents['index'].url)
             img.nav-logo(src=contents.images['blur-admin-logo.png'].url, width=36,height=36)
-            |&nbsp;#[span.blur-label Blur]Admin
+            |&nbsp;#[span.blur-label blur]Admin
           ul.nav-site.nav-site-internal
             li
               a(class= locals.page.metadata.activeHome ? 'active': '')(href=contents['index'].url) Home
@@ -33,7 +33,7 @@ html(lang='en')
           span.nav-docs-right
             | Need some help? Let us know! #[a(href='mailto:contact@akveo.com') contact@akveo.com]
       block content
-        h2 Welcome to blur admin!
+        h2 Welcome to blur!
       footer.wrap
         div.left Powered by Angular, Bootsrap, Gulp and more...
         div.right

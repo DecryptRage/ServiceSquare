@@ -8,7 +8,7 @@ template: article.jade
 
 If you want to switch theme to the blur, you need to follow 3 simple steps:
 
-1) Blur theme needs some javascript to calculate initial background offsets for panels.
+1) blur theme needs some javascript to calculate initial background offsets for panels.
 That's why first thing you need to do is enable that code.
 This should be done in Angular **configuration block**. 
 For example you can add following lines to `src/app/theme/theme.config.js`:

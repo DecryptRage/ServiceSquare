@@ -5,11 +5,11 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.charts', [
-      'BlurAdmin.pages.charts.amCharts',
-      'BlurAdmin.pages.charts.chartJs',
-      'BlurAdmin.pages.charts.chartist',
-      'BlurAdmin.pages.charts.morris'
+  angular.module('blur.pages.charts', [
+      'blur.pages.charts.amCharts',
+      'blur.pages.charts.chartJs',
+      'blur.pages.charts.chartist',
+      'blur.pages.charts.morris'
   ])
       .config(routeConfig);
 

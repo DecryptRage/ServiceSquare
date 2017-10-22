@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.charts.amCharts')
+  angular.module('blur.pages.charts.amCharts')
       .controller('PieChartCtrl', PieChartCtrl);
 
   /** @ngInject */
@@ -37,7 +37,7 @@
               dx: 0,
               dy: 0
             },
-            feGaussianBlur: {
+            feGaussianblur: {
               result: 'blurOut',
               in: 'offOut',
               stdDeviation: 5

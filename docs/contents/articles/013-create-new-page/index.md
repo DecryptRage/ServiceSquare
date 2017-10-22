@@ -6,7 +6,7 @@ group: Customization
 template: article.jade
 ---
 
-Blur admin uses [Angular UI router](https://github.com/angular-ui/ui-router) for navigation. 
+blur uses [Angular UI router](https://github.com/angular-ui/ui-router) for navigation. 
 That means to create new page you need to basically configure `ui-router` state.
 
 We strongly recommend to follow pages structure in your application. 
@@ -27,7 +27,7 @@ This will allow you to easily switch off some pages in the future if needed.
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.myNewPage', [])
+  angular.module('blur.pages.myNewPage', [])
       .config(routeConfig);
 
   /** @ngInject */
@@ -45,7 +45,7 @@ This will allow you to easily switch off some pages in the future if needed.
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.myNewPage', [])
+  angular.module('blur.pages.myNewPage', [])
       .config(routeConfig);
 
   /** @ngInject */
