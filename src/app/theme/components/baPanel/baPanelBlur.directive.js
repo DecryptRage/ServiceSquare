@@ -5,26 +5,26 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.theme')
-      .directive('baPanelBlur', baPanelBlur);
+  angular.module('blur.theme')
+      .directive('baPanelblur', baPanelblur);
 
   /** @ngInject */
-  function baPanelBlur(baPanelBlurHelper, $window, $rootScope) {
+  function baPanelblur(baPanelblurHelper, $window, $rootScope) {
     var bodyBgSize;
 
-    baPanelBlurHelper.bodyBgLoad().then(function() {
-      bodyBgSize = baPanelBlurHelper.getBodyBgImageSizes();
+    baPanelblurHelper.bodyBgLoad().then(function() {
+      bodyBgSize = baPanelblurHelper.getBodyBgImageSizes();
     });
 
     $window.addEventListener('resize', function() {
-      bodyBgSize = baPanelBlurHelper.getBodyBgImageSizes();
+      bodyBgSize = baPanelblurHelper.getBodyBgImageSizes();
     });
 
     return {
       restrict: 'A',
       link: function($scope, elem) {
         if(!$rootScope.$isMobile) {
-          baPanelBlurHelper.bodyBgLoad().then(function () {
+          baPanelblurHelper.bodyBgLoad().then(function () {
             setTimeout(recalculatePanelStyle);
           });
           $window.addEventListener('resize', recalculatePanelStyle);

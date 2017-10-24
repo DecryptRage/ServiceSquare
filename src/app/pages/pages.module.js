@@ -5,17 +5,17 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages', [
+  angular.module('blur.pages', [
     'ui.router',
 
-    'BlurAdmin.pages.dashboard',
-    'BlurAdmin.pages.ui',
-    'BlurAdmin.pages.components',
-    'BlurAdmin.pages.form',
-    'BlurAdmin.pages.tables',
-    'BlurAdmin.pages.charts',
-    'BlurAdmin.pages.maps',
-    'BlurAdmin.pages.profile',
+    'blur.pages.dashboard',
+    'blur.pages.ui',
+    'blur.pages.components',
+    'blur.pages.form',
+    'blur.pages.tables',
+    'blur.pages.charts',
+    'blur.pages.maps',
+    'blur.pages.profile',
   ])
       .config(routeConfig);
 

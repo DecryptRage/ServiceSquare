@@ -5,11 +5,11 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.dashboard')
-      .controller('BlurFeedCtrl', BlurFeedCtrl);
+  angular.module('blur.pages.dashboard')
+      .controller('blurFeedCtrl', blurFeedCtrl);
 
   /** @ngInject */
-  function BlurFeedCtrl($scope) {
+  function blurFeedCtrl($scope) {
     $scope.feed = [
       {
         type: 'text-message',

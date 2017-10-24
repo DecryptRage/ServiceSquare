@@ -5,11 +5,11 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.theme')
-      .service('baPanelBlurHelper', baPanelBlurHelper);
+  angular.module('blur.theme')
+      .service('baPanelblurHelper', baPanelblurHelper);
 
   /** @ngInject */
-  function baPanelBlurHelper($q) {
+  function baPanelblurHelper($q) {
     var res = $q.defer();
     var computedStyle = getComputedStyle(document.body, ':before');
     var image = new Image();
