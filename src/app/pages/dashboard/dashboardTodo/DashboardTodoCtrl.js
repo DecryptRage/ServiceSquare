@@ -24,16 +24,16 @@
     }
 
     $scope.todoList = [
-      { text: 'Check me out' },
-      { text: 'Lorem ipsum dolor sit amet, possit denique oportere at his, etiam corpora deseruisse te pro' },
-      { text: 'Ex has semper alterum, expetenda dignissim' },
-      { text: 'Vim an eius ocurreret abhorreant, id nam aeque persius ornatus.' },
-      { text: 'Simul erroribus ad usu' },
-      { text: 'Ei cum solet appareat, ex est graeci mediocritatem' },
-      { text: 'Get in touch with akveo team' },
-      { text: 'Write email to business cat' },
-      { text: 'Have fun with blur' },
-      { text: 'What do you think?' },
+      { text: 'Create an event for Thanksgiving food drive collection' },
+      { text: 'Contact past volunteers for feedback' },
+      { text: 'Sign up for a BlueCube Event' },
+      { text: 'Ask Mrs.Speer about using ServiceSquare for finding more volunteers' },
+      { text: 'Request STEM Professionals for the Girls FIRST event to inspire younger girls to join STEM' },
+      { text: 'Create a google calendar for football team' },
+      { text: 'Coordinate the orchestra fundraiser' },
+      { text: 'Email ServiceSquare with suggestions for improvement' },
+      { text: '' },
+      { text: '' },
     ];
 
     $scope.todoList.forEach(function(item) {

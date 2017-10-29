@@ -18,7 +18,7 @@
         center: 'title',
         right: 'month,agendaWeek,agendaDay'
       },
-      defaultDate: '2016-03-08',
+      defaultDate: '2017-10-30',
       selectable: true,
       selectHelper: true,
       select: function (start, end) {
