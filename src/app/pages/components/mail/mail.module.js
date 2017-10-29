@@ -17,7 +17,7 @@
           templateUrl: 'app/pages/components/mail/mail.html',
           controller: "MailTabCtrl",
           controllerAs: "tabCtrl",
-          title: 'Mail',
+          title: ' Event Planner Mail',
           sidebarMeta: {
             order: 0,
           },

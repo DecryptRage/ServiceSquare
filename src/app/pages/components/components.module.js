@@ -8,7 +8,7 @@
   angular.module('blur.pages.components', [
     'blur.pages.components.mail',
     'blur.pages.components.timeline',
-    'blur.pages.components.tree',
+    
   ])
       .config(routeConfig);
 
@@ -19,7 +19,7 @@
           url: '/components',
           template : '<ui-view  autoscroll="true" autoscroll-body-top></ui-view>',
           abstract: true,
-          title: 'Components',
+          title: 'Communications',
           sidebarMeta: {
             icon: 'ion-gear-a',
             order: 100,

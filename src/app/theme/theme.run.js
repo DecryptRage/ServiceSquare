@@ -20,7 +20,7 @@
       if (theme.mobile) {
         whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'blur-bg-mobile.jpg'));
       } else {
-        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'blur-bg.jpg'));
+        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'transblue-bg.jpg'));
         whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'blur-bg-blurred.jpg'));
       }
     }

@@ -45,7 +45,7 @@ to
 
 3.1) If you would like to use some different background, replace following images:
 
-- `src/app/assets/img/blur-bg.jpg` (main background image)
+- `src\assets\img\transblue-bg.jpg` (main background image)
 - `src/app/assets/img/blur-bg-blurred.jpg` (blurred background image used on panels)
 
 We suggest using 10px Gaussian blur to blur original image.

@@ -6,13 +6,13 @@ group: Customization
 template: article.jade
 ---
 
-blur uses [Angular UI router](https://github.com/angular-ui/ui-router) for navigation. 
+blur uses [Angular UI router](https://github.com/angular-ui/ui-router) for navigation.
 That means to create new page you need to basically configure `ui-router` state.
 
-We strongly recommend to follow pages structure in your application. 
-If it doesn't fit your needs please create a GitHub issue and tell us why. We would be glad to discuss. 
+We strongly recommend to follow pages structure in your application.
+If it doesn't fit your needs please create a GitHub issue and tell us why. We would be glad to discuss.
 
-Also we recommend to put pages to separate modules. 
+Also we recommend to put pages to separate modules.
 This will allow you to easily switch off some pages in the future if needed.
 
 ## Page creation example
@@ -32,7 +32,7 @@ This will allow you to easily switch off some pages in the future if needed.
 
   /** @ngInject */
   function routeConfig() {
-   
+
   }
 
 })();
@@ -65,4 +65,3 @@ This will allow you to easily switch off some pages in the future if needed.
 ```
 
 That's it! Your can now open your new page either from sidebar or through hash URL.
-

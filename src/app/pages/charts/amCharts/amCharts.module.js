@@ -5,21 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('blur.pages.charts.amCharts', [])
-      .config(routeConfig).config(amChartConfig);
-
-  /** @ngInject */
-  function routeConfig($stateProvider) {
-    $stateProvider
-        .state('charts.amCharts', {
-          url: '/amCharts',
-          templateUrl: 'app/pages/charts/amCharts/charts.html',
-          title: 'amCharts',
-          sidebarMeta: {
-            order: 0,
-          },
-        });
-  }
+  
 
   function amChartConfig(baConfigProvider) {
     var layoutColors = baConfigProvider.colors;

@@ -16,22 +16,15 @@
           template : '<ui-view  autoscroll="true" autoscroll-body-top></ui-view>',
           abstract: true,
           controller: 'TablesPageCtrl',
-          title: 'Tables',
+          title: 'Join Event',
           sidebarMeta: {
             icon: 'ion-grid',
             order: 300,
           },
-        }).state('tables.basic', {
-          url: '/basic',
-          templateUrl: 'app/pages/tables/basic/tables.html',
-          title: 'Basic Tables',
-          sidebarMeta: {
-            order: 0,
-          },
         }).state('tables.smart', {
           url: '/smart',
           templateUrl: 'app/pages/tables/smart/tables.html',
-          title: 'Smart Tables',
+          title: 'Sign Up Tables',
           sidebarMeta: {
             order: 100,
           },
