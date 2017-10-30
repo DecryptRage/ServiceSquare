@@ -1,7 +1,4 @@
-/**
- * @author v.lugovsky
- * created on 16.12.2015
- */
+
 (function () {
   'use strict';
 
@@ -601,14 +598,14 @@
 
     $scope.users = [
       {
-        "id": 1,
+        "id": 2,
         "name": "Aarya Kapani",
         "status": 1,
         "group": 1
       },
       {
-        "id": 2,
-        "name": "Leah Freeman",
+        "id": 1,
+        "name": "Lokranjan Lakshmikanthan",
         "status": 1,
         "group": 1
       },
@@ -616,13 +613,13 @@
         "id": 3,
         "name": "Mathews Simpson",
         "status": 1,
-        "group": 1
+        "group": 2
       },
       {
         "id": 4,
         "name": "Buckley Hopkins",
         "status" : 1,
-        "group": 1
+        "group": 2
       },
       {
         "id": 5,
