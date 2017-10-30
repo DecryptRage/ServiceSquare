@@ -1,7 +1,4 @@
-/**
- * @author v.lugovksy
- * created on 16.12.2015
- */
+
 (function () {
   'use strict';
 
@@ -12,93 +9,54 @@
   function MsgCenterCtrl($scope, $sce) {
     $scope.users = {
       0: {
-        name: 'Vlad',
+        name: 'Lokranjan',
       },
       1: {
-        name: 'Kostya',
+        name: 'Aarya',
       },
       2: {
-        name: 'Andrey',
+        name: 'Mauna',
       },
       3: {
-        name: 'Nasta',
+        name: 'Marius',
       }
     };
 
     $scope.notifications = [
       {
         userId: 0,
-        template: '&name posted a new article.',
+        template: '&name added a new member',
         time: '1 min ago'
       },
       {
         userId: 1,
-        template: '&name changed his contact information.',
+        template: '&name changed his opportunity description.',
         time: '2 hrs ago'
       },
       {
-        image: 'assets/img/shopping-cart.svg',
-        template: 'New orders received.',
-        time: '5 hrs ago'
-      },
-      {
         userId: 2,
-        template: '&name replied to your comment.',
+        template: '&name replied to your email.',
         time: '1 day ago'
       },
-      {
-        userId: 3,
-        template: 'Today is &name\'s birthday.',
-        time: '2 days ago'
-      },
-      {
-        image: 'assets/img/comments.svg',
-        template: 'New comments on your post.',
-        time: '3 days ago'
-      },
-      {
-        userId: 1,
-        template: '&name invited you to join the event.',
-        time: '1 week ago'
-      }
     ];
 
     $scope.messages = [
       {
-        userId: 3,
-        text: 'After you get up and running, you can place Font Awesome icons just about...',
+        userId: 1,
+        text: 'The meeting will be cancelled today due to poor weather. We are planning on rescheduling the event to November 21rst at 4:00 PM.',
         time: '1 min ago'
       },
       {
         userId: 0,
-        text: 'You asked, Font Awesome delivers with 40 shiny new icons in version 4.2.',
+        text: 'Can you fill in for Jacob for cleanup duty today? He has something come up and as a result, cannot make it. Thanks.',
         time: '2 hrs ago'
       },
       {
-        userId: 1,
-        text: 'Want to request new icons? Here\'s how. Need vectors or want to use on the...',
+        userId: 2,
+        text: 'This is verification that you have just signed up for Blue Cube. Our first meeting will be on November 21rst at 3:30 PM',
         time: '10 hrs ago'
       },
-      {
-        userId: 2,
-        text: 'Explore your passions and discover new ones by getting involved. Stretch your...',
-        time: '1 day ago'
-      },
-      {
-        userId: 3,
-        text: 'Get to know who we are - from the inside out. From our history and culture, to the...',
-        time: '1 day ago'
-      },
-      {
-        userId: 1,
-        text: 'Need some support to reach your goals? Apply for scholarships across a variety of...',
-        time: '2 days ago'
-      },
-      {
-        userId: 0,
-        text: 'Wrap the dropdown\'s trigger and the dropdown menu within .dropdown, or...',
-        time: '1 week ago'
-      }
+
     ];
 
     $scope.getMessage = function(msg) {

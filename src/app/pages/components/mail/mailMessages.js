@@ -69,7 +69,7 @@
     var tabs = [{
       label: 'inbox',
       name: 'Inbox',
-      newMails: 7
+      newMails: 3
     }, {
       label: 'sent',
       name: 'Sent Mail'
@@ -79,7 +79,7 @@
     }, {
       label: 'draft',
       name: 'Draft',
-      newMails: 2
+      newMails: 1
     }, {
       label: 'spam',
       name: 'Spam'

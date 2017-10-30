@@ -30,14 +30,14 @@
         ago: '6 days ago',
         expanded: true,
       }, {
-        type: 'image-message',
+        type: 'text-message',
         author: 'Mauna',
         surname: 'Kareti',
         header: '',
         text: 'Blue Cube will be hosting a cubing competition at Marrietta Park on 12/4/2017. We need 2 more volunteers at 12 PM. You will recieve 2-3 hours for volunteering. Layout of Park is attached. Meet up at the front entrance. Please be on time!',
         time: '16.11.2015',
         ago: '7 days ago',
-        expanded: false,
+        expanded: true,
       },
       {
         type: 'text-message',
