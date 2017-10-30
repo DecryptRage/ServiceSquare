@@ -39,10 +39,10 @@
       {
         "id": "4563zxcss",
         "name": "Jeffrey Key",
-        "subject": "Lores ipsum",
+        "subject": "meeting",
         "date": "2015-10-19T03:30:45",
         "important": false,
-        "body": $sce.trustAsHtml("<p>Hey Nasta, </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>"),
+        "body": $sce.trustAsHtml("<p>Hey Aarya, </p><p>yeah, I can make it at that date</p>"),
         "pic": "img/Jeffrey.png",
         "email": "jifeiqi11@mail.com",
         "position": "User",

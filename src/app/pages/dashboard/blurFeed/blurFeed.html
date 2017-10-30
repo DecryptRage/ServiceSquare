@@ -20,6 +20,9 @@
           <img ng-src="{{ ::( message.preview | appImage )}}">
         </a>
       </div>
+      <div ng-show = "message.expanded" class = "message-link">
+        <A HREF="http://localhost:3000/#/tables/smart">View other members</A>
+      </div>
       <div ng-show="message.expanded" class="message-time">
         <div class="post-time">
           {{::message.time}}

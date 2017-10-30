@@ -602,76 +602,74 @@
     $scope.users = [
       {
         "id": 1,
-        "name": "Esther Vang",
-        "status": 4,
-        "group": 3
+        "name": "Aarya Kapani",
+        "status": 1,
+        "group": 1
       },
       {
         "id": 2,
         "name": "Leah Freeman",
-        "status": 3,
+        "status": 1,
         "group": 1
       },
       {
         "id": 3,
         "name": "Mathews Simpson",
-        "status": 3,
-        "group": 2
-      },
-      {
-        "id": 4,
-        "name": "Buckley Hopkins",
-        "group": 4
-      },
-      {
-        "id": 5,
-        "name": "Buckley Schwartz",
         "status": 1,
         "group": 1
       },
       {
+        "id": 4,
+        "name": "Buckley Hopkins",
+        "status" : 1,
+        "group": 1
+      },
+      {
+        "id": 5,
+        "name": "Buckley Schwartz",
+        "status": 2,
+        "group": 2
+      },
+      {
         "id": 6,
         "name": "Mathews Hopkins",
-        "status": 4,
+        "status": 2,
         "group": 2
       },
       {
         "id": 7,
         "name": "Leah Vang",
-        "status": 4,
-        "group": 1
+        "status": 2,
+        "group": 2
       },
       {
         "id": 8,
         "name": "Vang Schwartz",
-        "status": 4,
+        "status": 2,
         "group": 2
       },
       {
         "id": 9,
         "name": "Hopkin Esther",
-        "status": 1,
+        "status": 2,
         "group": 2
       },
       {
         "id": 10,
         "name": "Mathews Schwartz",
-        "status": 1,
-        "group": 3
+        "status": 2,
+        "group": 2
       }
     ];
 
     $scope.statuses = [
-      {value: 1, text: 'Good'},
-      {value: 2, text: 'Awesome'},
-      {value: 3, text: 'Excellent'},
+      {value: 1, text: 'Verified'},
+      {value: 2, text: 'Unverified'},
     ];
 
     $scope.groups = [
-      {id: 1, text: 'user'},
-      {id: 2, text: 'customer'},
-      {id: 3, text: 'vip'},
-      {id: 4, text: 'admin'}
+      {id: 1, text: 'Lead'},
+      {id: 2, text: 'Member'},
     ];
 
     $scope.showGroup = function(user) {
